@@ -2,25 +2,21 @@
 
 import turtle
 
-#turtle.title("KSA 91")
 tt = turtle.Turtle()
 
 #FIRST
-#tt.pen(fillcolor="white", pencolor="white", pensize=1)
-#tt.shapesize(2,2,2)
-tt.fillcolor("white")
-tt.pencolor("white")
+tt.fillcolor("#ffffff")
+tt.pencolor("#ffffff")
 tt.pensize(1)
 tt.speed(10)
 
 tt.rt(180)
 tt.fd(180)
 
-#tt.pen(fillcolor="#118c77", pencolor="#abc55a", pensize=4, speed=10)
 tt.fillcolor("#118c77")
-tt.pencolor("#118c77")
+tt.pencolor("#abc55a")
 tt.pensize(4)
-tt.speed(10)
+tt.speed(15)
 
 #####################
 tt.begin_fill()
@@ -182,11 +178,10 @@ tt.fd(25)
 
 tt.end_fill()
 
-tt.penup()
+tt.penup() #stop
 tt.home()
-tt.pendown()
+tt.pendown() #stop
 
-#tt.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=7, speed=10)
 tt.fillcolor("#ffffff")
 tt.pencolor("#ffffff")
 tt.pensize(7)
@@ -250,7 +245,6 @@ tt.fd(180)
 tt.rt(-180)
 tt.pendown() #stop
 
-#tt.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=7, speed=10)
 tt.fillcolor("#ffffff")
 tt.pencolor("#ffffff")
 tt.pensize(7)
@@ -298,7 +292,6 @@ tt.fd(90)
 tt.rt(90)
 tt.pendown() #stop
 
-#tt.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=7, speed=10)
 tt.fillcolor("#ffffff")
 tt.pencolor("#ffffff")
 tt.pensize(7)
@@ -352,7 +345,6 @@ tt.fd(390)
 tt.rt(-180)
 tt.pendown() #stop
 
-#tt.pen(fillcolor="white", pencolor="#abc55a", pensize=7, speed=15)
 tt.fillcolor("#ffffff")
 tt.pencolor("#abc55a")
 tt.pensize(7)
